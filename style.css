@@ -8,8 +8,11 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    align-items: center;
     list-style: none;
     padding: 1rem;
+    color: rgba(0,0,0,.84);
+    cursor: auto;
     
 }
 .nav-box li {
@@ -18,6 +21,7 @@
 /*BODY CONTENT*/
 .body{
     font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
 }
 .body-box{
     
@@ -25,27 +29,54 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    height: 40vh;
     padding-top: 200px;
-    padding-bottom: 360px;
+    padding-bottom: 300px;
 
 }
+.btn{
 
-
-
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+}
+.searchbox{
+    min-width: 600px;
+    border-radius: 25px;
+    height: 46px;
+    border: 1px solid #d3d3d3;
+    padding: 16 16px;
+    cursor:alias,
+}
+.Chile{
+    display: block;
+    padding: 15px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+}
 
 /*FOOTER CONTENT*/
 .footer-wrapper{
-    padding: 1rem;
-    padding-left:1.5rem;
+    padding: 15px 40px;
     background-color:#ececec;
+    color: rgba(0,0,0,.54);
+    
 }
 .footer-box{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-  
-   
+    justify-content: space-between; 
     
 }
 .side-footer{
@@ -59,5 +90,7 @@
    
 }
 .side-footer li {
-    padding: 0.2rem;
+    padding-left: 15px;
+    padding-right: 0.2rem;
+    padding-bottom: 0.2rem;
 }
