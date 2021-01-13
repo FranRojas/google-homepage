@@ -10,32 +10,60 @@
     justify-content: flex-end;
     align-items: center;
     list-style: none;
-    padding: 1rem;
     color: rgba(0,0,0,.84);
     cursor: auto;
     
 }
+a{
+    text-decoration: none;
+    color: rgba(0,0,0,.84);}
+a:hover{
+    text-decoration: underline;
+}    
 .nav-box li {
-    padding: 0.2rem;
+    padding-right: 20px;
+}
+.log-btn {
+    background-color: #1a73e8;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: white;
+     font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: .25px;
+}
+.log-btn:hover{
+    background-color: #4b8be0;
+}
+.app-logo:hover{
+    cursor: pointer;
 }
 /*BODY CONTENT*/
 .body{
     font-family:Arial, Helvetica, sans-serif;
     font-size: 14px;
 }
-.body-box{
-    
+.body-box{ 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 40vh;
-    padding-top: 200px;
-    padding-bottom: 300px;
+    padding-top: 180px;
+    padding-bottom: 390px;
 
 }
+.logo {
+    padding-bottom: 25px;
+}
 .btn{
-
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
     border-radius: 4px;
@@ -50,28 +78,41 @@
     text-align: center;
     cursor: pointer;
 }
+.btn:hover {
+    border: 1px solid #cfd0d1;;
+}
+.search-wrapper {
+    padding-bottom: 20px;
+}
 .searchbox{
     min-width: 600px;
     border-radius: 25px;
     height: 46px;
     border: 1px solid #d3d3d3;
-    padding: 16 16px;
-    cursor:alias,
+    padding-bottom: 25px;
+    cursor:auto;
+   
 }
+
+
+/*FOOTER CONTENT*/
 .Chile{
     display: block;
-    padding: 15px;
+    padding-left: 15px  ;
+    padding-bottom: 10px;
     border-bottom: 1px solid #dadce0;
     font-size: 15px;
     color: rgba(0,0,0,.54);
+    box-sizing: border-box;
 }
-
-/*FOOTER CONTENT*/
-.footer-wrapper{
+.footer-wrapper {
     padding: 15px 40px;
     background-color:#ececec;
+    padding-top: 10px;  
+}
+.footer-wrapper a{
+   
     color: rgba(0,0,0,.54);
-    
 }
 .footer-box{
     display: flex;
@@ -84,13 +125,9 @@
     flex-direction: row;
     justify-content: center;
     list-style: none;
-    padding-bottom: 0.3rem;
-    padding-top: 0.3rem;
-    
-   
+    padding-top: 10px;
 }
 .side-footer li {
     padding-left: 15px;
-    padding-right: 0.2rem;
-    padding-bottom: 0.2rem;
+    padding-right: 0.2rem;;
 }
