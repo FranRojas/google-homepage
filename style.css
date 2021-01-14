@@ -55,9 +55,9 @@ a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 40vh;
-    padding-top: 180px;
-    padding-bottom: 390px;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 230px;
 
 }
 .logo {
@@ -85,7 +85,7 @@ a:hover{
     padding-bottom: 20px;
 }
 .searchbox{
-    min-width: 600px;
+    min-width: 580px;
     border-radius: 25px;
     height: 46px;
     border: 1px solid #d3d3d3;
